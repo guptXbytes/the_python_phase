@@ -8,7 +8,6 @@ while True:
     user_option = input("Choose 1.rock, 2.paper, 3.scissors and 4.q for exit: ").lower()
     print("The user selected: ",user_option + ".")
 
-    
     if user_option == "q":
         print("Exiting the game...")
         break
